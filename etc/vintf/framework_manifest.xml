@@ -6,28 +6,24 @@
     </sepolicy>
     <hal format="aidl" optional="true">
         <name>android.hardware.radio.modem</name>
-        <version>3</version>
         <interface><name>IRadioModem</name>
             <instance>slot1</instance><instance>slot2</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.radio.network</name>
-        <version>3</version>
         <interface><name>IRadioNetwork</name>
             <instance>slot1</instance><instance>slot2</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.radio.sim</name>
-        <version>3</version>
         <interface><name>IRadioSim</name>
             <instance>slot1</instance><instance>slot2</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.radio.voice</name>
-        <version>3</version>
         <interface><name>IRadioVoice</name>
             <instance>slot1</instance><instance>slot2</instance>
         </interface>

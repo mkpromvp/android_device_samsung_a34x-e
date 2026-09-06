@@ -447,3 +447,8 @@ PRODUCT_COPY_FILES += \
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a34x/a34x-vendor.mk)
 
+# Re-disabled after vendor inherit: vendor makefiles re-enable enforcement,
+# which makes check_vintf_compatible fail on vendor.samsung/vendor.mediatek
+# HAL instances that have no AOSP interface definitions.
+PRODUCT_ENFORCE_VINTF_MANIFEST := false
+
